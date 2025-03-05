@@ -1,5 +1,9 @@
+
 { pkgs }: {
   deps = [
-    pkgs.cowsay
+    pkgs.nodejs-20_x
+    pkgs.nodePackages.typescript
+    pkgs.nodePackages.npm
+    pkgs.yarn
   ];
 }
