@@ -1,9 +1,7 @@
-
 { pkgs }: {
   deps = [
-    pkgs.nodejs-20_x
-    pkgs.nodePackages.typescript
+    pkgs.nodejs-18_x
     pkgs.nodePackages.npm
-    pkgs.yarn
   ];
 }
+
